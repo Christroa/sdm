@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+div.heading {
+  margin: 0 0  20px 0;
+  text-align: center;
+}
+
+div.heading h2 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+div.heading h2::after {
+  position: absolute;
+  display: block;
+  background-color: #08b708;
+  width: 30%;
+  left: 50%;
+  text-align: center;
+  margin: 0 auto;
+  height: 2px;
+  content: "";
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header nav {
+  padding: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #60f860;
+  height: 10px;
+}
+
+header nav .logo a {
+  font-weight: 900;
+  color: #333;
+}
+
+header nav .menu > .fa {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+header nav ul {
+  position: absolute;
+  left: -100%;
+  top: 40px;
+  width: 70%;
+  height: 100vh;
+  background: #08b708;
+  padding: 20px;
+  -webkit-transition: .5s ease-in;
+  transition: .5s ease-in;
+}
+
+header nav ul span.back {
+  position: absolute;
+  top: 40%;
+  right: -40px;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+  background: #08b708;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+header nav ul span.back:hover {
+  -webkit-box-shadow: 0 0 10px #ffffff99;
+          box-shadow: 0 0 10px #ffffff99;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+header nav ul li {
+  display: block;
+}
+
+header nav ul li a {
+  display: block;
+  padding: 15px;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  background: #677cd9;
+}
+
+main section.hero div {
+  background: rgba(0, 0, 0, 0.6) url("/images/12.jpeg") center;
+  background-blend-mode: overlay;
+}
+
+main section.hero div div.text {
+  text-align: center;
+  padding: 30px 15px;
+  height: 50%;
+}
+
+main section.hero div div.text h1 {
+  margin-top: 20px;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+main section.hero div div.text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #91fa91;
+}
+
+main section.services div {
+  margin: 20px 5px;
+}
+
+main section.services div > div.heading h2 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+main section.services div > div.heading h2::after {
+  position: absolute;
+  display: block;
+  background-color: #08b708;
+  width: 50%;
+  left: 50%;
+  text-align: center;
+  margin: 0 auto;
+  height: 2px;
+  content: "";
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main section.services div > .content > .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.services div > .content > .cards > .card {
+  background: #045504;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+main section.services div > .content > .cards > .card > .img {
+  text-align: center;
+}
+
+main section.services div > .content > .cards > .card > .img i {
+  border-radius: 50%;
+  background: #65f865;
+  color: #045504;
+  padding: 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+main section.services div > .content > .cards > .card > .img strong {
+  font-size: 1.2rem;
+  display: block;
+  color: yellow;
+}
+
+main section.services div > .content > .cards > .card > .text-img p {
+  color: white;
+}
+
+main section.courses div {
+  margin: 20px 5px;
+}
+
+main section.courses div > div.heading h2 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+main section.courses div > div.heading h2::after {
+  position: absolute;
+  display: block;
+  background-color: #08b708;
+  width: 50%;
+  left: 50%;
+  text-align: center;
+  margin: 0 auto;
+  height: 2px;
+  content: "";
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main section.courses div > .content > .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.courses div > .content > .cards > .card {
+  background: #045504;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+main section.courses div > .content > .cards > .card > .img {
+  text-align: center;
+}
+
+main section.courses div > .content > .cards > .card > .img i {
+  border-radius: 50%;
+  background: #65f865;
+  color: #045504;
+  padding: 7px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+main section.courses div > .content > .cards > .card > .img strong {
+  font-size: 1.2rem;
+  display: block;
+  color: yellow;
+}
+
+main section.courses div > .content > .cards > .card > .text ul li {
+  color: #f3fef3;
+  font-size: 1.3rem;
+}
+
+main section.contact > div .content {
+  padding: 15px;
+}
+
+main section.contact > div .content form .form-container input, main section.contact > div .content form .form-container textarea {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  margin: 5px;
+  background: #f6f6f6;
+  -webkit-box-shadow: 0 1px 10px #60f860;
+          box-shadow: 0 1px 10px #60f860;
+  padding: 15px;
+  resize: none;
+}
+/*# sourceMappingURL=main.css.map */
